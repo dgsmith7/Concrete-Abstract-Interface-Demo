@@ -21,7 +21,7 @@ public class Main {
     }
 
     public static void initVehicles() {
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 10; i++) {
             if (i < 5) {
                 allVehicles[i] = new Rover();  // first 5 are Rover class
                 System.out.println("madeARover");
